@@ -1,16 +1,31 @@
 body {
     text-align: center;
     font-family: Helvetica, sans-serif;
+    background-color: #6699ff;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #dice {
-    text-align: center;
-    height: 100px;
-    width: 300px;
-    font-size: 320px;
-    
-}
-#dice:hover {
+    font-size: 500px;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
     cursor: pointer;
+    user-select: none;
+    background-color: #037c9e;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#dice:hover {
+    background-color: #0b5481;
 
 }
